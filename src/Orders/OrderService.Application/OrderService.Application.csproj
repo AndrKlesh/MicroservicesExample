@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Configurations>Debug;Release;Microservices</Configurations>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Users\UserService.Abstractions\UserService.Abstractions.csproj" />
+    <ProjectReference Include="..\OrderService.Abstractions\OrderService.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>
